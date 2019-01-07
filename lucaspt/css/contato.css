@@ -1,0 +1,22 @@
+.contato {
+    height: 110px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.container-contato {
+    float: left;
+    box-shadow: 2px 2px 5px -3px grey;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.container-contato h1, h2  {
+    font-size: 1em;
+    color: grey;
+
+}

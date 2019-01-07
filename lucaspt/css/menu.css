@@ -1,0 +1,58 @@
+.menu-header {
+    position: fixed;
+    height: 6em;
+    width: 100%;
+    top: 0%;
+    background: white;
+    z-index: 1000;
+    list-style: none;
+    box-shadow: 0 4px 5px -3px #ececec;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    animation: menu 2s;
+    opacity: 1;
+}
+
+
+@keyframes menu {
+
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        
+       opacity: 1;
+    }
+}
+
+.menu-header ul {
+    text-align: center;
+}
+
+.menu-item {
+    padding: 10px 50px 10px 10px;
+    border-radius: 20px;
+    display: inline;
+}
+
+
+.menu-item a {
+    transition: 0.3s ease-in;
+    color: black;
+    text-decoration:none; 
+    margin-bottom: 20px;
+    
+}
+
+
+.menu-item a:hover {
+    color:aquamarine;
+}
+
+
+.menu-header ul {
+    margin-left: 0%;
+    padding-top: 2.2em;
+    margin-bottom: 0;
+}

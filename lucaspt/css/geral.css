@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: auto;
+    background:rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 -30px black;
+    
+
+}
+
+body {
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+
+  }
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0.1px 0 grey;
+    margin: 2em 20em 2em 20em;
+    padding: 2em;
+
+}
+
+h1 {
+    font-family: Courier, monospace;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: Courier, monospace;
+    font-size: 1.5em;
+}
+
+

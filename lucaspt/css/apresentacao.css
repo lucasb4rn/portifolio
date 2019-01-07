@@ -1,0 +1,29 @@
+
+.apresentacao {
+    height: 100vh;
+}
+
+
+.imagem-background {
+    height: 100vh;
+    background: url("../img/fundo.png") no-repeat;
+    background-size: 100%; /*or cover or whatever you like*/
+    filter: blur(3px);
+    
+}
+
+.texto-apresentacao {
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    color:white;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+.apresentacao h2 {
+    color: white;
+}
